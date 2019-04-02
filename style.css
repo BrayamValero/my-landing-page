@@ -96,7 +96,7 @@ button {
 /* Hero Section */
 
 .hero-section {
-  background: url(background.png) no-repeat center center;
+  background: url(images/background.png) no-repeat center center;
   display: table;
   width: 100%;
   /* Set Viewport Height */
