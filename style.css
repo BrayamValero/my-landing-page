@@ -62,7 +62,7 @@ button {
 /* Sidenav and Main settings */
 
 .sidenav {
-  width: 25vh;
+  width: 25vw;
   height: 100%;
   position: fixed;
   z-index: 1;
@@ -73,7 +73,7 @@ button {
 }
 
 .main {
-  margin-left: 25vh; /* Same as the width of the sidebar */
+  margin-left: 25vw; /* Same as the width of the sidebar */
 }
 
 /* Sidenav Content */
