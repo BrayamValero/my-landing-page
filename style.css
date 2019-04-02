@@ -1,0 +1,168 @@
+/* Color Palette */
+:root {
+  --main: #1A8AAC;
+  --lightgrey: #808080;
+  --dark: #17171A;
+  }
+/* CSS Prefixed */
+  *,
+  *:before,
+  *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  }
+
+/* HTML & Body Settings */
+html, body {
+  font-family: 'Lato', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.7rem !important;
+}
+
+/* HTML Elements | Custom Settings */
+
+p {
+	color: var(--lightgrey);
+}
+
+h1 {
+  color: white !important;
+}
+
+h3{
+  color: var(--dark) !important;
+}
+
+h5 {
+  color: var(--dark) !important;
+}
+
+h6 {
+  color: var(--main) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+label {
+  color: var(--main) !important;
+}
+
+button {
+  color: white;
+  background: var(--main);
+  border: none;
+  padding: .8rem 1.2rem;
+}
+
+/* Sidenav and Main settings */
+
+.sidenav {
+  width: 25vh;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--dark);
+  overflow-y: hidden;
+}
+
+.main {
+  margin-left: 25vh; /* Same as the width of the sidebar */
+}
+
+/* Sidenav Content */
+
+.sidenav-text > p {
+	margin: 0 !important; /* avoid spacing created from Bootstrap */
+	padding: 0 !important; /* avoid spacing created from Bootstrap */
+}
+
+.sidenav-text h2 {
+	color: white;
+}
+
+.list-group a {
+	color: white;
+	font-size: 1.1rem;
+	text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background: url(background.png) no-repeat center center;
+  display: table;
+  width: 100%;
+  /* Set Viewport Height */
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(23, 23, 26, 0.8);
+  position: relative;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Set Viewport Height */
+  height: 100vh;
+}
+
+.hero-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hero-text h2 {
+  color: white;
+}
+
+.highlight {
+  color: var(--main);
+  font-weight: bold;
+}
+
+/* Portfolio */
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* Form Section */
+
+form .row{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Footer Section */
+
+footer div{
+  height: 60px;
+  background: var(--main);
+  color: white !important;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  
+  .hero-text h1{
+    
+  }
+  .hero-text h2, .landing-text span {
+  }
+}
