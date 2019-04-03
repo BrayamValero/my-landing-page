@@ -1,54 +1,53 @@
 /* Color Palette */
 :root {
-  --first: #D90429;
-  --second: #202121;
-  --third: #8D99AE;
+  --main-color: #D90429;
+  --dark-color: #202121;
+  --light-color: #939393;
 }
 
 /* Default CSS Settings */
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
-    padding: 0;
-    margin: 0;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 /* HTML & Body Settings */
 html, body {
   font-family: 'Quicksand', sans-serif !important;
-  line-height: 1.9rem !important;
+  line-height: 1.8rem !important;
   box-sizing: border-box;
-  background: var(--third);
   font-size: 15px;
 }
 
-/* CSS elements settings */
+/* HTML element settings */
 
 p {
-  color: var(--second) !important;
+  color: var(--dark-color) !important;
 }
 
 h3, h5 {
-  color: var(--second) !important;
+  color: var(--dark-color) !important;
 } 
 
-h6{
-  color: var(--first) !important;
+h6 {
+  color: var(--main-color) !important;
 }
 
-nav{
-  background: var(--second) !important;
+nav {
+  background: var(--dark-color) !important;
   padding: 1rem 2.5rem !important;
 }
 
-nav a {
-  color: white !important;
+nav .navbar-nav a {
+  color: var(--light-color) !important;
   padding: 0 .8rem !important;
 }
 
 button, .btn {
-  background: var(--first) !important;
+  background: var(--main-color) !important;
   border: none !important;
   border-radius: 50px !important;
   padding: .8rem 1.5rem !important;
@@ -59,10 +58,6 @@ button, .btn {
 
 nav button {
   background: none !important;
-}
-
-nav .navbar-toggler-icon {
-  color: white !important;
 }
 
 .header-section {
@@ -86,14 +81,22 @@ nav .navbar-toggler-icon {
 
 footer div {
   height: 60px;
-  background: var(--second);
-  color: white !important;
+  color: var(--light-color) !important;
+  background: var(--dark-color) !important;
 }
 
 /* Media Queries */
 
 @media  (max-width: 993px) {
+  /* Navbar */
   nav li{
     padding: .4rem 0;
+  }
+  nav .nav-2{
+    border-top: 1px solid white !important;
+    margin-top: .8rem !important;
+  }
+  nav .nav-2 li:first-child{
+    margin-top: .8rem !important;
   }
 }
