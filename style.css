@@ -79,6 +79,10 @@ nav button {
   color: white !important;
 }
 
+#portfolio-section{
+  width: 60% !important;
+}
+
 form .row {
   margin: 0 !important;
   padding: 0 !important;
@@ -103,5 +107,9 @@ footer div {
   }
   nav .nav-2 li:first-child{
     margin-top: .8rem !important;
+  }
+  /* Portfolio */
+  #portfolio-section{
+    width: 90% !important;
   }
 }
