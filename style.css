@@ -79,6 +79,11 @@ nav button {
   color: white !important;
 }
 
+form .row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 footer div {
   height: 60px;
   color: var(--light-color) !important;
