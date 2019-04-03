@@ -101,15 +101,16 @@ footer div {
   nav li{
     padding: .4rem 0;
   }
-  nav .nav-2{
+  nav .nav-social{
     border-top: 1px solid white !important;
     margin-top: .8rem !important;
   }
-  nav .nav-2 li:first-child{
+  nav .nav-social li:first-child{
     margin-top: .8rem !important;
   }
   /* Portfolio */
   #portfolio-section{
     width: 90% !important;
   }
+
 }

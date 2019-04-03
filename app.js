@@ -3,6 +3,23 @@
 // 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
 // });
 
+
+// Adding and Removing Classes
+
+$(window).resize(function () {
+
+  var viewportWidth = $(window).width();
+
+  if (viewportWidth < 993) {
+    $(".nav-social").removeClass("nav navbar-nav ml-auto w-100 justify-content-end").addClass("list-inline"); 
+    $(".resize").removeClass("nav-item").addClass("list-inline-item");
+  }
+  else{
+    $(".nav-social").removeClass("list-inline").addClass("nav navbar-nav ml-auto w-100 justify-content-end"); 
+    $(".resize").removeClass("list-inline-item").addClass("nav-item"); 
+  }
+});
+
 // 2. Smooth Scroll 
 
   // Select all links with hashes
