@@ -22,10 +22,10 @@ $(window).resize(function () {
 
   // Form 
   if (viewportWidth < 768) {
-    $(".form-resize").removeClass("col-5").addClass("col-10"); 
+    $(".form-resize").removeClass("col-4").addClass("col-10"); 
   }
   else{
-    $(".form-resize").removeClass("col-10").addClass("col-5"); 
+    $(".form-resize").removeClass("col-10").addClass("col-4"); 
   }
 
 });

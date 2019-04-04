@@ -56,8 +56,18 @@ button, .btn {
 
 /* CSS */
 
+#about-section , #skills-section, #portfolio-section, #contact-section{
+  padding: 5rem 2rem;
+}
+
 nav button {
   background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+nav button:focus {
+  outline: none !important;
 }
 
 .header-section {
@@ -79,7 +89,7 @@ nav button {
   color: white !important;
 }
 
-#portfolio-section{
+.carousel{
   width: 60% !important;
 }
 
@@ -109,8 +119,8 @@ footer div {
     margin-top: .8rem !important;
   }
   /* Portfolio */
-  #portfolio-section{
-    width: 90% !important;
+  .carousel{
+    width: 100% !important;
   }
 
 }
