@@ -43,7 +43,7 @@ nav {
 
 nav .navbar-nav a {
   color: var(--light-color) !important;
-  padding: 0 .8rem !important;
+  padding: 0 .7rem !important;
 }
 
 button, .btn {
