@@ -10,14 +10,24 @@ $(window).resize(function () {
 
   var viewportWidth = $(window).width();
 
-  if (viewportWidth < 993) {
+  // Navbar
+  if (viewportWidth < 992) {
     $(".nav-social").removeClass("nav navbar-nav ml-auto w-100 justify-content-end").addClass("list-inline"); 
     $(".resize").removeClass("nav-item").addClass("list-inline-item");
   }
   else{
     $(".nav-social").removeClass("list-inline").addClass("nav navbar-nav ml-auto w-100 justify-content-end"); 
-    $(".resize").removeClass("list-inline-item").addClass("nav-item"); 
+    $(".resize").removeClass("list-inline-item").addClass("nav-item");
   }
+
+  // Form 
+  if (viewportWidth < 768) {
+    $(".form-resize").removeClass("col-5").addClass("col-10"); 
+  }
+  else{
+    $(".form-resize").removeClass("col-10").addClass("col-5"); 
+  }
+
 });
 
 // 2. Smooth Scroll 
