@@ -1,2 +1,3 @@
-# my-landing-page
-My new website
+# Welcome to my Portfolio Website
+
+Hosted with GitHub pages.
