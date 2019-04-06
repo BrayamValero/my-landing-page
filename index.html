@@ -213,7 +213,7 @@
 		<!-- Contact Form -->
 		<section  id="contact-section" class="container">
 			<!-- Form -->
-			<form>
+			<form name="input" method="POST" action="https://formspree.io/bvalerop@gmail.com" >
 				<!-- Text -->
 				<h6 class="mb-1 text-center">CONTACT</h6>
 				<h3 class="font-weight-bold mb-4 text-center">Let's talk</h3>
@@ -224,21 +224,21 @@
 							<!-- Name -->
 							<div class="form-group">
 								<label for="name">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Your name">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Your name">
 							</div>
 							<!-- Email -->
 							<div class="form-group">
 								<label for="name">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Your email">
+								<input type="email" name="email" class="form-control" id="email" placeholder="Your email">
 							</div>
 							<!-- Message -->
 							<div class="form-group">
 								<label for="name">Message</label>
-								<input type="text" class="form-control" id="message" placeholder="Your message">
+								<input type="text" name="message" class="form-control" id="message" placeholder="Your message">
 							</div>
 							<!-- Send Button -->
 							<div class="form-group text-center">
-								<button type="button" class="btn btn-dark mt-4">Submit</button>
+								<button type="submit" value="send" class="btn btn-dark mt-4">Submit</button>
 							</div> 
 						</div>
 					</div>
