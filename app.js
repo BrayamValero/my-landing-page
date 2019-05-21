@@ -1,10 +1,4 @@
-//  1. Window Scroll Navbar
-// $(window).scroll(function(){
-// 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
-// });
-
-
-// Adding and Removing Classes
+// Toggler
 
 $(window).resize(function () {
 
@@ -30,7 +24,7 @@ $(window).resize(function () {
 
 });
 
-// 2. Smooth Scroll 
+// Smooth Scrolling
 
   // Select all links with hashes
   $('a[href*="#"]')
@@ -69,15 +63,3 @@ $(window).resize(function () {
         }
       }
     });
-
-  // 3. Active Nav Item
-  // $( '#navbar-section .navbar-nav a' ).on( 'click', function () {
-  //   $( '#navbar-section .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-  //   $( this ).parent( 'li' ).addClass( 'active' );
-  // });
-  
-  // 4. Back to Top
-  // $( '#footer-section .footer-copyright a' ).on( 'click', function () {
-  //   $( '#navbar-section .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
-  //   $('.top ').addClass( 'active' );
-  // });

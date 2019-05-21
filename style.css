@@ -131,7 +131,7 @@ footer div {
     padding: .4rem 0;
   }
   nav .nav-social{
-    border-top: 1px solid white !important;
+    border-top: 1px solid var(--light-color) !important;
     margin-top: .8rem !important;
   }
   nav .nav-social li:first-child{
