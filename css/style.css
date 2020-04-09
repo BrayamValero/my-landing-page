@@ -1,0 +1,325 @@
+/* HTML */
+:root {
+    --main-color: #d7385e;
+    --secondary-color: #f7cf6b;
+    --dark-color: #222222;
+    --grey-color: #ffffffc0;
+    --background-color: #482352;
+}
+
+html {
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Quicksand';
+    background: var(--background-color);
+}
+
+
+/* Remove Margin */
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/* Paddings */
+#about, #skills, #portfolio, #contact{
+    padding-top: 5.5rem !important;
+}
+
+#contact{
+    padding-bottom: 7rem;
+}
+
+/* Main Components */
+.btn-main{
+    color: white;
+    background-color: var(--main-color);
+}
+
+.btn-main:hover{
+    color: white;
+    background-color: var(--main-color);
+}
+
+.badge-main{
+    color: white;
+    background-color: var(--main-color);
+}
+
+.text-subtitle{
+    color: var(--main-color);
+}
+
+.text-title{
+    color: white;
+}
+
+.text-content{
+    color: var(--grey-color);
+}
+
+.icon-color{
+    color: var(--secondary-color); 
+}
+
+.bg-secondary{
+    background: var(--secondary-color) !important; 
+}
+
+/* End of Main Components */
+
+.header{
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.navbar-padding{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav.navbar{
+    transition: background-color .3s ease 0s;
+    z-index: 1000;
+}
+
+nav.navbar.solid {
+    background: var(--dark-color) !important;
+    box-shadow: 0 2px 6px -2px rgba(0,0,0,.5);
+    transition: background-color .3s ease 0s;
+}
+
+.nav-link{
+    color: var(--grey-color) !important;
+    /* color: red !important; */
+}
+
+.nav-link:hover{
+    color:  #ffffff9c !important;
+}
+
+.hero-img-md{
+    display: none;
+}
+
+.hero-text{
+    height: calc(100vh + 82.625px);
+    z-index: -1
+}
+
+.hero-title{
+    font-weight: bold;
+    color: white;
+}
+
+.hero-description{
+    color: var(--grey-color);
+    line-height: 1.8;
+    margin-top: .6rem;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+
+/* Carousel Controls */
+.carousel-control-next-icon {
+    right: -40px;
+    position: absolute;
+}
+  
+.carousel-control-prev-icon {
+    left: -40px;
+    position: absolute;
+}
+
+.carousel-indicators{
+    /* background: var(--main-color) !important; */
+    margin-right: 40%;
+    margin-left: 40%;
+    border-radius: 3px;
+}
+
+.gallery {
+    display: none;
+}
+
+.carousel-indicators > li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: var(--dark-color);
+  }
+  
+/* .carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+} */
+
+.padding-sm {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.contact-img{
+    border-radius: 4px 0 0 4px;
+}
+
+.contact-form{
+    border-radius: 0 4px 4px 0;
+}
+
+/* Form Input */
+input[type="text"], input[type="email"], input[type="number"], select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, select.form-control:focus {
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid var(--main-color);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.footer{
+    background: var(--dark-color);
+}
+
+.footer a {
+    text-align: center;
+    display: inline-block;
+    width: 30.5px;
+    height: 30px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 30px;
+    margin-right: 10px;
+    transition: .4s;
+}
+
+/* ---------------------------------------------------
+    Media Queries - Bootstrap 4
+----------------------------------------------------- */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    h2 {
+        font-size: 24px !important;
+    }
+    .padding-sm{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .hero-title, .hero-description, .hero-btn{
+        text-align: center;
+    }
+    .navbar {
+        background: #202020;
+        box-shadow: 0 2px 6px -2px rgba(0,0,0,.5);
+        transition: background-color .2s ease 0s;
+    }
+    .nav-flex-icons {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .social-media-icon {
+        margin-right: 1.5rem;
+    }
+    .project-content{
+        margin-top: 1.3rem;
+    }
+    .contact-img{
+        display: none;
+    }
+    .contact-form{
+        border-radius: 4px 4px 4px 4px;
+    }
+    .footer-text{
+        text-align: center;
+    }
+    .footer-link{
+        text-align: center !important;
+        margin-top: 1rem;
+    }
+    .hero-md{
+        text-align: center;
+    }
+    .hero-img-md{
+        display: inline;
+        height: 150px;
+        margin-bottom: 1rem;
+    }
+    /* Carousel */
+    .carousel{
+        width: 85% !important;
+    }
+    .carousel-control-next-icon {
+        right: -60px;
+        position: absolute;
+    }
+    .carousel-control-prev-icon {
+        left: -60px;
+        position: absolute;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h2 {
+        font-size: 26px !important;
+    }
+    .project-content{
+        margin-top: 1.3rem;
+    }
+    .contact-img{
+        display: none;
+    }
+    .contact-form{
+        border-radius: 4px 4px 4px 4px;
+    }
+    /* Carousel Controls */
+    .carousel-control-next-icon {
+        right: -60px;
+        position: absolute;
+    }
+    
+    .carousel-control-prev-icon {
+        left: -60px;
+        position: absolute;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-img-lg{
+        margin-top: 2rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    html {
+        font-size: 20px;
+    }
+}

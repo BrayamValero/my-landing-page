@@ -3,14 +3,14 @@
 	<head>
 		<!-- SEO Tags -->
 		<title>Brayam Valero</title>
-		<meta name="description" content="Front-end Developer & Web Designer">
-		<meta name="keyWords" content="brayam, valero, front-end, developer, designer">
+		<meta name="description" content="Web Developer & Designer">
+		<meta name="keyWords" content="brayam, valero, front-end, developer, designer, colombia">
 		<!-- Open Graph Tags for Social Media -->
-		<meta property="og:title" content="Brayam Valero" />
-		<meta property="og:type" content="website" />
-		<meta property="og:description" content="Front-end Developer & Web Designer" />
-		<meta property="og:url" content="https://www.brayamvalero.com/" />
-		<meta property="og:image" content="images/social.png" />
+		<meta property="og:title" content="Brayam Valero">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="Web Developer & Designer">
+		<meta property="og:url" content="https://www.brayamvalero.com/">
+		<meta property="og:image" content="images/social.png">
     	<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<!-- My Icon -->
@@ -18,265 +18,546 @@
 		<!-- Font: Quicksand -->
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 		<!-- Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-		<!-- Navbar -->
-		<nav class="navbar fixed-top navbar-dark navbar-expand-lg justify-content-center">
-			<a href="#header-section" class="navbar-brand d-flex w-50 mr-auto font-weight-bold">Brayam Valero</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-				<span class="navbar-toggler-icon">
-				</span>
-			</button>
-			<div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-				<ul class="navbar-nav nav-1 w-100 justify-content-center">
-					<li class="nav-item">
-						<a class="nav-link" href="#header-section">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about-section">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#skills-section">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio-section">Portfolio</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact-section">Contact</a>
-					</li>
-				</ul>
-				<!-- Sidenav Social Buttons -->
-				<ul class="nav navbar-nav nav-social ml-auto w-100 justify-content-end">
-					<li class="resize nav-item">
-						<a href="https://www.behance.net/brayamvalero" target="_blank"><img src="images/Behance.png" alt="Behance"></a>
-					</li>
-					<li class="resize nav-item">
-						<a href="https://dribbble.com/BrayamValero" target="_blank"><img src="images/Dribbble.png" alt="Dribbble"></a>
-					</li>
-					<li class="resize nav-item">
-						<a href="https://github.com/BrayamValero" target="_blank"><img src="images/Github.png" alt="Github"></a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<!-- Header Content -->
-		<section id="header-section" class="header-section">
-			<div class="overlay">
-				<div class="container h-100">
-					<div class="row h-100 align-items-center">
-						<div class="col-sm-12 text-center">
-							<h1 class="font-weight-bold">Front-end Developer</h1>
-							<h4 class="lead pt-2">I <span class="font-weight-bold">design</span> and <span class="font-weight-bold">code</span> amazing things</h4>
-							<a class="btn mt-3" href="https://www.behance.net/brayamvalero">View More</a>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- CSS/Plugins: Bootstrap, Fontawesome, Photoswipe -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="photoswipe/photoswipe.css">
+		<link rel="stylesheet" href="photoswipe/default-skin/default-skin.css">
+		<!-- Custom Stylesheet -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- <link rel="stylesheet" href="css/style.css"> -->
+  	</head>
+  	<body>
+		<!-- Final Header -->
+		<header class="header" id="header">
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-md navbar-dark position-absolute w-100 padding-sm">
+				<div class="container navbar-padding">
+					<a class="navbar-brand font-weight-bold mr-3" href="#">Brayam Valero</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#skills">Skills</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#portfolio">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img class="navbar-brand mr-2" src="images/english.svg" alt="us" style="width: 15px;">
+									<span>English</span>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#"><img class="navbar-brand mr-2" src="images/english.svg" alt="us" style="width: 15px;"> English</a>
+									<a class="dropdown-item" href="#"><img class="navbar-brand mr-2" src="images/spanish.svg" alt="us" style="width: 15px;"> Spanish</a>
+								</div>
+							</li> -->
+						</ul>
+						<ul class="navbar-nav nav-flex-icons">
+							<li class="nav-item mr-2">
+								<a class="nav-link social-media-icon" href="https://www.behance.net/brayamvalero" target="blank">
+								<i class="fab fa-behance fa-lg"></i>
+								</a>
+							</li>
+							<li class="nav-item mr-2">
+								<a class="nav-link social-media-icon" href="https://www.linkedin.com/in/brayamvalero/" target="blank">
+								<i class="fab fa-linkedin-in fa-lg"></i>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link social-media-icon" href="https://github.com/BrayamValero" target="blank">
+									<i class="fab fa-github fa-lg"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- End of Navbar -->
+			<!-- Hero Content -->
+			<div class="container hero-text padding-sm">
+				<div class="row h-100 justify-content-center align-items-center">
+					<div class="col-md-6 col-sm-12 hero-md">
+						<img class="hero-img-md" src="images/computer.svg" alt="Vector">
+						<h2 class="hero-title">Web Developer & Designer</h2>
+						<p class="hero-description">Hi there! My name is Brayam. I design and develop websites with bold typography, subtle gradients and modern technology. I am a stickler for details, dedicated to gaming, coffee and music.</p>
+						<div class="hero-btn">
+							<a class="btn btn-main" href="https://www.behance.net/brayamvalero" target="blank">View My Portfolio</a>
+							<!-- <object type="application/pdf" width="100%" height="100%">
+								<a class="btn btn-main" href="files/cv.pdf">
+									<i class="fas fa-file mr-1"></i> View Resume
+								</a>
+							</object> -->
 						</div>
+					</div>
+					<div class="d-none d-md-block col-md-6">
+						<img class="hero-img img-fluid" src="images/computer.svg" alt="Vector">
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- About Section -->
-		<section id="about-section" class="container text-center">
-			<div class="col-md-7 mx-auto">
-				<h6 class="mb-1">ABOUT ME</h6>
-				<h3 class="font-weight-bold mb-4">Hello, I'm Brayam.</h3>
-				<p>I started my career as a freelance 2 years ago with the goal of surpassing every 
-				challenge I set myself. I am very passionate about everything related to technology. 
-				I have worked in different digital areas, working remotely work for agencies, and 
-				collaborated with talented people to create digital products for both business and 
-				consumer use. I  consider myself a competitive, perfectionist and creative person.</p>
-				<p>I am currently working in the front-end area creating websites that people can love, 
-				working closely with my clients and making sure I meet all their expectations in order 
-				to make their brands, businesses or projects successful. </p>
-			</div>
-			<a class="btn mt-3" href="files/cv.pdf" download>View Curriculum</a>
-		</section>
-		<!-- Skills Section -->
-		<section id="skills-section" class="container text-center">
+			<!-- End of Hero Content -->
+		</header>
+		<!-- End of Header -->
+
+		<!-- About -->
+		<section id="about" class="container padding-sm">
 			<!-- Text -->
-			<h6 class="mb-1">SKILLS</h6>
-			<h3 class="font-weight-bold mb-5">Things I can do</h3>
-			<!-- Rows & Cols -->
+			<div class="text-center mb-5">
+				<h6 class="mb-2 text-subtitle">About</h6>
+				<h3 class="font-weight-bold text-title mb-3"> Hello, I'm Brayam</h3>
+			</div>
+			<!-- Content -->
 			<div class="row justify-content-center">
-				<div class="col-md-4">
-					<img class="img-fluid mb-4" alt="Web Development" src="images/webdev.png">
-					<h5 class="font-weight-bold">Web Development</h5>
-					<p>I tend to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+				<div class="col-lg-10 col-md-12 col-sm-12">
+					<div class="card shadow">
+						<div class="card-body">
+							<div class="ml-3">
+								<h5 class="mb-2 font-weight-bold text-left"><i class="fas fa-star icon-color"></i> Systems Engineer</h5>
+								<div class="text-left mb-3">
+									<span class="badge badge-main d-inline-block text-left">Front-end Developer</span>
+									<span class="badge badge-main d-inline-block text-left">WordPress Developer</span>
+									<span class="badge badge-main d-inline-block text-left">Web Designer</span>
+								</div>
+								<p class="text-left mb-2">Born and raised in Venezuela, I told myself from a very young age that one day I would be a successful and enterprising person. From the first moment I saw a computer I knew I was going to be fascinated by everything related to technology, I love video games, pizza and playing soccer. My beginnings in programming came while I was in college, however, it wasn't until I decided to study on my own that I really became fascinated with this world of programming.</p>
+								<p class="text-left">I am currently working in the front-end area creating websites that people can love, working closely with my clients and making sure I meet all their expectations in order to make their brands, businesses or projects successful.</p>
+								<footer class="text-left blockquote-footer mt-3">Become successful doing what you love.</footer>
+							</div>
+						</div>
+					</div>		
 				</div>
-				<div class="col-md-4">
-					<img class="img-fluid mb-4" alt="Web Design" src="images/webdesign.png">
-					<h5 class="font-weight-bold">Web Design</h5>
-					<p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section id="skills" class="container padding-sm">
+			<!-- Text -->
+			<div class="text-center mb-5">
+				<h6 class="text-subtitle mb-2">Skills</h6>
+				<h3 class="font-weight-bold mb-3 text-title">Things I can do</h3>
+			</div>
+			<!-- Content -->
+			<div class="row justify-content-center">
+				<div class="col-lg-5 col-md-6 col-sm-12">
+					<div class="card shadow">
+						<div class="card-body">
+							<div class="ml-3">
+								<div class="mb-3">
+									<h5 class="mb-2 font-weight-bold text-left"><i class="fas fa-code icon-color"></i> Web Development</h5>
+									<p class="text-left">I tend to code things from scratch, and enjoy bringing ideas to life in the web browser.</p>
+								</div>
+								<div class="text-left mb-2">
+									<span class="badge badge-main d-inline-block text-left">HTML</span>
+									<span class="badge badge-main d-inline-block text-left">CSS</span>
+									<span class="badge badge-main d-inline-block text-left">Sass</span>
+									<span class="badge badge-main d-inline-block text-left">JavaScript</span>
+									<span class="badge badge-main d-inline-block text-left">jQuery</span>
+									<span class="badge badge-main d-inline-block text-left">PHP</span>
+									<span class="badge badge-main d-inline-block text-left">MySQL</span>
+									<span class="badge badge-main d-inline-block text-left">WordPress</span>
+									<span class="badge badge-main d-inline-block text-left">Vue</span>
+								</div>
+							</div>
+						</div>
+					</div>	
 				</div>
-				<div class="col-md-4">
-					<img class="img-fluid mb-4" alt="Web Design" src="images/community.png">
-					<h5 class="font-weight-bold">Community Manager</h5>
-					<p>I genuinely care about people and love helping new entrepreneurs with their brand or business.</p>
-				</div>
-				<!-- Second Row -->
-				<div class="w-100 mb-4"></div>
-				<!-- Row Break -->
-				<div class="col-md-4">
-					<h5 class="font-weight-bold">Languages I speak</h5>
-					<p>HTML5<br>
-						CSS3<br>
-						JavaScript<br>
-						JQuery<br>
-						PHP<br>
-						MySQL<br>
-						WordPress
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h5 class="font-weight-bold">Things I enjoy designing</h5>
-					<p>User Interface<br> 
-						User Experience<br>
-						Websites<br>
-						Apps<br>
-						Wireframes<br>
-						Desktop
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h5 class="font-weight-bold">Previous Work</h5>
-					<p>bitGuru<br>
-						XWaves<br>
-						Coinwizer<br>
-						WizerMarketing<br>
-						Dra. Rorayma Valero
-				</div>
-				<!-- Third Row -->
-				<div class="w-100 mb-4"></div>
-				<!-- Row Break -->
-				<div class="col-md-4">
-					<h5 class="font-weight-bold">Developer Tools</h5>
-					<p>Visual Studio Code<br>
-						Bootstraps<br>
-						Flexbox Grid<br>
-						Terminal<br>
-						XAMPP<br>
-						GitHub Desktop
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h5 class="font-weight-bold">Design Tools</h5>
-					<p>Adobe XD<br>
-						Adobe Photoshop<br>
-						Adobe Illustrator<br>
-						Adobe After Effects<br>
-						Adobe Premiere Pro<br>
-						Adobe Lightroom
-					</p>
-				</div>
-				<div class="col-md-4">
-					<h5 class="font-weight-bold">Management Tools</h5>
-					<p>Hootsuite<br>
-						Canva<br>
-						Google Analitycs<br>
-						Google Trends<br>
-						Google Adwords<br>
-						Google Docs
-					</p>
+				
+				<div class="col-lg-5 col-md-6 col-sm-12">
+					<div class="card shadow mt-md-0 mt-4">
+						<div class="card-body">
+							<div class="ml-4">
+								<div class="mb-3">
+									<h5 class="mb-2 font-weight-bold text-left"><i class="fas fa-pen-nib icon-color"></i> Web Design</h5>
+									<p class="text-left">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+								</div>
+								<div class="text-left mb-2">
+									<span class="badge badge-main d-inline-block text-left">Adobe XD</span>
+									<span class="badge badge-main d-inline-block text-left">Illustrator</span>
+									<span class="badge badge-main d-inline-block text-left">Photoshop</span>
+									<span class="badge badge-main d-inline-block text-left">After Effects</span>
+									<span class="badge badge-main d-inline-block text-left">Premiere Pro</span>
+									<span class="badge badge-main d-inline-block text-left">Figma</span>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Portfolio -->
-		<section  id="portfolio-section" class="container text-center mx-auto">
+		<section id="portfolio" class="container padding-sm">
 			<!-- Text -->
-			<h6 class="mb-1">PORTFOLIO</h6>
-			<h3 class="font-weight-bold mb-5">My Recent Work</h3>
+			<div class="text-center mb-5">
+				<h6 class="text-subtitle mb-2">Portfolio</h6>
+				<h3 class="font-weight-bold mb-3 text-title">My Recent Work</h3>
+			</div>
+			<!-- Content => Carousel -->
 			<div class="container">
-					<div id="carouselExampleIndicators" class="carousel slide mx-auto" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img class="d-block w-100" src="./images/carousel/1.png" alt="Avenue Wealth">
+				<div id="carousel-gallery" class="carousel slide mx-auto" data-ride="carousel">
+					<div class="carousel-inner">
+						<!-- #1 -->
+						<div class="carousel-item active">
+							<div class="row justify-content-center text-center text-lg-left">
+								<div class="col-lg-5 p-lg-0 mr-0 mr-lg-4">
+									<img src="images/carousel/suelaslc/suelaslc.png" alt="Avenue Wealth" class="img-fluid rounded">
 								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="./images/carousel/2.png" alt="Bloque 64">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="./images/carousel/3.png" alt="Coin Sensei">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="./images/carousel/4.png" alt="My Graff Name">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="./images/carousel/5.png" alt="Pokemon Let's Go">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="./images/carousel/6.png" alt="Alfarería Doña Flor">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="./images/carousel/7.png" alt="Pokemon Revolution Online">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="./images/carousel/8.png" alt="Steem Monsters">
+								<div class="col-lg-5 py-3 project-content align-self-center">
+									<h3 class="text-white pb-2">Suelas LC <span class="badge badge-main">2020</span></h3>
+									<p class="text-content font-weight-light pb-2">Suelas LC is a web application which is responsible for recording all processes that take place within the company, these processes range from sales to production.</p>
+									<div class="pb-4">
+										<p class="text-white">Tools used
+											<span class="ml-1 badge badge-pill badge-main">HTML</span>
+											<span class="ml-1 badge badge-pill badge-main">CSS</span>
+											<span class="ml-1 badge badge-pill badge-main">JavaScript</span>
+											<span class="ml-1 badge badge-pill badge-main">PHP</span>
+											<span class="ml-1 badge badge-pill badge-main">MySQL</span>
+										</p>
+									</div>
+									<button class="btn btn-main mr-lg-3 d-none d-lg-inline-block" id="gallery-1">Preview</button>
+									<a href="https://suelaslc.com/" class="btn btn-outline-light" target="_blank">Visit site</a>
 								</div>
 							</div>
-							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
 						</div>
+						<!-- #2 -->
+						<div class="carousel-item">
+							<div class="row justify-content-center text-center text-lg-left">
+								<div class="col-lg-5 p-lg-0 mr-0 mr-lg-4">
+									<img src="images/carousel/jfgroup/jfgroup.png" alt="Avenue Wealth" class="img-fluid rounded">
+								</div>
+								<div class="col-lg-5 py-3 project-content align-self-center">
+									<h3 class="text-white pb-2">JF Group <span class="badge badge-main">2020</span></h3>
+									<p class="text-content font-weight-light pb-2">Development and design of a landing page for JF Group. This page is designed to provide information about the team, its services, portfolio and contact.</p>
+									<div class="pb-4">
+										<p class="text-white">Tools used
+											<span class="ml-1 badge badge-pill badge-main">HTML</span>
+											<span class="ml-1 badge badge-pill badge-main">CSS</span>
+											<span class="ml-1 badge badge-pill badge-main">JavaScript</span>
+										</p>
+									</div>
+									<button class="btn btn-main mr-lg-3 d-none d-lg-inline-block" id="gallery-2">Preview</button>
+									<a href="https://www.jf-group.co/" class="btn btn-outline-light" target="_blank">Visit site</a>
+								</div>
+							</div>
+						</div>
+						<!-- #3 -->
+						<div class="carousel-item">
+							<div class="row justify-content-center text-center text-lg-left">
+								<div class="col-lg-5 p-lg-0 mr-0 mr-lg-4">
+									<img src="images/carousel/rotaryclub/rotaryclub.png" alt="Avenue Wealth" class="img-fluid rounded">
+								</div>
+								<div class="col-lg-5 py-3 project-content align-self-center">
+									<h3 class="text-white pb-2">Rotary Club Los Patios <span class="badge badge-main">2020</span></h3>
+									<p class="text-content font-weight-light pb-2">Development and design of a landing page for Rotary Club Los Patios, the project is still in development, expected to be migrated to a WordPress site in the future.</p>
+									<div class="pb-4">
+										<p class="text-white">Tools used
+											<span class="ml-1 badge badge-pill badge-main">HTML</span>
+											<span class="ml-1 badge badge-pill badge-main">CSS</span>
+											<span class="ml-1 badge badge-pill badge-main">JavaScript</span>
+										</p>
+									</div>
+									<button class="btn btn-main mr-lg-3 d-none d-lg-inline-block" id="gallery-3">Preview</button>
+									<a href="https://www.clubrotariolospatios.com/" class="btn btn-outline-light" target="_blank">Visit site</a>
+								</div>
+							</div>
+						</div>
+						<!-- #4 -->
+						<div class="carousel-item">
+							<div class="row justify-content-center text-center text-lg-left">
+								<div class="col-lg-5 p-lg-0 mr-0 mr-lg-4">
+									<img src="images/carousel/avenuewealth/avenuewealth.png" alt="Avenue Wealth" class="img-fluid rounded">
+								</div>
+								<div class="col-lg-5 py-3 project-content align-self-center">
+									<h3 class="text-white pb-2">Avenue Wealth <span class="badge badge-main">2019</span></h3>
+									<p class="text-content font-weight-light pb-2">Design of a landing page for the law firm of Avenuew Wealth. Initially, this design was intended to be used, but in the end the client decided to use another design.</p>
+									<div class="pb-4">
+										<p class="text-white">Tools used
+											<span class="ml-1 badge badge-pill badge-main">Adobe XD</span>
+											<span class="ml-1 badge badge-pill badge-main">Photoshop</span>
+										</p>
+									</div>
+									<button class="btn btn-main mr-lg-3 d-none d-lg-inline-block" id="gallery-4">Preview</button>
+									<a href="https://www.avenuewealth.com/" class="btn btn-outline-light" target="_blank">Visit site</a>
+								</div>
+							</div>
+						</div>
+						<!-- #5 -->
+						<div class="carousel-item">
+							<div class="row justify-content-center text-center text-lg-left">
+								<div class="col-lg-5 p-lg-0 mr-0 mr-lg-4">
+									<img src="images/carousel/bloque64/bloque64.png" alt="Avenue Wealth" class="img-fluid rounded">
+								</div>
+								<div class="col-lg-5 py-3 project-content align-self-center">
+									<h3 class="text-white pb-2">Bloque 64 <span class="badge badge-main">2019</span></h3>
+									<p class="text-content font-weight-light pb-2">Design of a blockchain-based newspaper for the Bloque64 coin. This design was postponed because they used the same design of the Steemit parent platform on their website.</p>
+									<div class="pb-4">
+										<p class="text-white">Tools used
+											<span class="ml-1 badge badge-pill badge-main">Adobe XD</span>
+											<span class="ml-1 badge badge-pill badge-main">Photoshop</span>
+										</p>
+									</div>
+									<button class="btn btn-main mr-lg-3 d-none d-lg-inline-block" id="gallery-5">Preview</button>
+									<a href="https://blogs.bloque64.com/" class="btn btn-outline-light" target="_blank">Visit site</a>
+								</div>
+							</div>
+						</div>
+						<!-- #6 -->
+						<div class="carousel-item">
+							<div class="row justify-content-center text-center text-lg-left">
+								<div class="col-lg-5 p-lg-0 mr-0 mr-lg-4">
+									<img src="images/carousel/mygraffname/mygraffname.png" alt="Avenue Wealth" class="img-fluid rounded">
+								</div>
+								<div class="col-lg-5 py-3 project-content align-self-center">
+									<h3 class="text-white pb-2">My Graff Name <span class="badge badge-main">2019</span></h3>
+									<p class="text-content font-weight-light pb-2">Design of a landing page with a graffiti name generator application The client wanted a simple and easy to use interface, along with the design of the other sections.</p>
+									<div class="pb-4">
+										<p class="text-white">Tools used
+											<span class="ml-1 badge badge-pill badge-main">Adobe XD</span>
+											<span class="ml-1 badge badge-pill badge-main">Photoshop</span>
+										</p>
+									</div>
+									<button class="btn btn-main mr-lg-3 d-none d-lg-inline-block" id="gallery-6">Preview</button>
+									<a href="https://mygraffname.com/" class="btn btn-outline-light" target="_blank">Visit site</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carousel-gallery" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel-gallery" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
 			</div>
 		</section>
 		<!-- Contact Form -->
-		<section  id="contact-section" class="container">
-			<!-- Form -->
-			<form name="input" method="POST" action="https://formspree.io/bvalerop@gmail.com" >
-				<!-- Text -->
-				<h6 class="mb-1 text-center">CONTACT</h6>
-				<h3 class="font-weight-bold mb-4 text-center">Let's talk</h3>
-					<!-- Row -->
-					<div class="row justify-content-center">
-						<!-- Col -->
-						<div class="form-resize col-4">
-							<!-- Name -->
-							<div class="form-group">
+		<section id="contact" class="container padding-sm">
+			<!-- Text -->
+			<div class="text-center mb-5">
+				<h6 class="text-subtitle mb-2">Contact</h6>
+				<h3 class="font-weight-bold mb-3 text-title">Let's Talk</h3>
+			</div>
+			<!-- Content -->
+			<div class="row justify-content-center">
+				<div class="col-lg-5 p-5 bg-secondary contact-img">
+					<img src="images/contact.svg" class="img-fluid contact-img-lg" alt="Send a message">
+				</div>
+				<div class="col-lg-5 col-md-10 bg-light contact-form">
+					<form class="p-5" method="POST" action="https://formspree.io/bvalerop@gmail.com">
+						<div class="form-row">
+							<div class="form-group col-md-6">
 								<label for="name">Name</label>
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your name">
+								<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
 							</div>
-							<!-- Email -->
-							<div class="form-group">
-								<label for="name">Email</label>
-								<input type="email" name="email" class="form-control" id="email" placeholder="Your email">
+							<div class="form-group col-md-6">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" name="_replyto" id="email" placeholder="Email" required>
 							</div>
-							<!-- Message -->
-							<div class="form-group">
-								<label for="name">Message</label>
-								<input type="text" name="message" class="form-control" id="message" placeholder="Your message">
+							<div class="form-group col-md-6">
+								<label for="telephone">Telephone</label>
+								<input type="number" class="form-control" name="telephone" id="telephone" placeholder="Telephone" required>
 							</div>
-							<!-- Send Button -->
-							<div class="form-group text-center">
-								<button type="submit" value="send" class="btn btn-dark mt-4">Submit</button>
-							</div> 
+							<div class="form-group col-md-6">
+								<label for="country">Country</label>
+								<input type="text" class="form-control" name="country" id="country" placeholder="Country" required>
+							</div>
+							<div class="form-group col-md-12">
+								<label for="message">Message</label>
+								<input type="text" class="form-control" name="message" id="message" placeholder="Message" required>
+							</div>
 						</div>
-					</div>
-			</form>
-			<!-- End of form -->
+						<div class="form-row mt-3">
+							<button type="submit" value="Send" class="btn btn-main"><i class="fas fa-paper-plane mr-1"></i> Send Message</button>
+						</div>
+					</form>
+				</div>
+			</div>
 		</section>
+
 		<!-- Footer Section -->
-		<footer class="footer-section">
-			<div class="d-flex justify-content-center align-items-center text-center">
-				Brayam Valero © 2019.
+		<footer class="footer py-4" id="footer">
+			<div class="container">
+				<div class="row justify-content-center align-items-center">
+					<div class="col-lg-6 col-md-6 col-sm-12 footer-text">
+						<p class="text-white font-weight-light">©2020 - Brayam Valero. All Rights Reserved.</p>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 text-right footer-link">
+						<a class="btn-main" href="https://www.behance.net/brayamvalero" target="blank">
+							<i class="fab fa-behance"></i>
+						</a>
+						<a class="btn-main" href="https://www.linkedin.com/in/brayamvalero/" target="blank">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+						<a class="btn-main" href="https://github.com/BrayamValero" target="blank">
+							<i class="fab fa-github"></i>
+						</a>
+						<a class="btn-main" href="#header" target="blank">
+							<i class="fas fa-arrow-up"></i>
+						</a>
+					</div>
+				</div>
 			</div>
 		</footer>
-    <!-- JQuery Library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- Bootstrap min JS -->
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
-    <!-- My JavaScript Code -->
-    <script src="app.js"></script>
-  </body>
+
+		<!-- Scripts/Plugins: jQuery, Popper, Bootstrap, Photoswipe -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="photoswipe/photoswipe.min.js"></script>
+		<script src="photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+			<!-- Background of PhotoSwipe. 
+				It's a separate element as animating opacity is faster than rgba(). -->
+			<div class="pswp__bg"></div>
+
+			<!-- Slides wrapper with overflow:hidden. -->
+			<div class="pswp__scroll-wrap">
+
+				<!-- Container that holds slides. 
+					PhotoSwipe keeps only 3 of them in the DOM to save memory.
+					Don't modify these 3 pswp__item elements, data is added later on. -->
+				<div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+				</div>
+
+				<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+				<div class="pswp__ui pswp__ui--hidden">
+
+					<div class="pswp__top-bar">
+
+						<!--  Controls are self-explanatory. Order can be changed. -->
+
+						<div class="pswp__counter"></div>
+
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+						<button class="pswp__button pswp__button--share" title="Share"></button>
+
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+						<!-- element will get class pswp__preloader--active when preloader is running -->
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+						<div class="pswp__share-tooltip"></div> 
+					</div>
+
+					<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+					</button>
+
+					<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+					</button>
+
+					<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		<!-- End of Photoswipe Root Element -->
+
+		<!-- Gallery #1 -->
+		<div class="gallery-1 gallery" itemscope="">
+
+			<figure itemprop="associatedMedia" itemscope="">
+			  	<a href="images/carousel/suelaslc/1.png" itemprop="contentUrl" data-size="1366x768"></a>
+				<!-- <figcaption itemprop="caption description">1</figcaption> -->
+			</figure>
+			
+			<figure itemprop="associatedMedia" itemscope="">
+			  	<a href="images/carousel/suelaslc/2.png" itemprop="contentUrl" data-size="1366x768"></a>
+			  	<!-- <figcaption itemprop="caption description">2</figcaption> -->
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope="">
+				<a href="images/carousel/suelaslc/3.png" itemprop="contentUrl" data-size="1366x768"></a>
+				<!-- <figcaption itemprop="caption description">3</figcaption> -->
+			  </figure>
+			  
+		</div>
+		
+		<!-- Gallery #2 -->
+		<div class="gallery-2 gallery" itemscope="">
+			
+			<figure itemprop="associatedMedia" itemscope="">
+				<a href="images/carousel/jfgroup/1.png" itemprop="contentUrl" data-size="1366x3602"></a>
+			  	<figcaption itemprop="caption description">Zoom in to see full image.</figcaption>
+			</figure>
+			
+		</div>
+
+		<!-- Gallery #3 -->
+		<div class="gallery-3 gallery" itemscope="">
+	
+			<figure itemprop="associatedMedia" itemscope="">
+				<a href="images/carousel/rotaryclub/1.png" itemprop="contentUrl" data-size="1366x3584"></a>
+				<figcaption itemprop="caption description">Zoom in to see full image.</figcaption>
+			</figure>
+
+		</div>
+
+		<!-- Gallery #4 -->
+		<div class="gallery-4 gallery" itemscope="">
+
+			<figure itemprop="associatedMedia" itemscope="">
+				<a href="images/carousel/avenuewealth/1.png" itemprop="contentUrl" data-size="1366x4307"></a>
+				<figcaption itemprop="caption description">Zoom in to see full image.</figcaption>
+			</figure>
+
+		</div>
+
+		<!-- Gallery #5 -->
+		<div class="gallery-5 gallery" itemscope="">
+
+			<figure itemprop="associatedMedia" itemscope="">
+				<a href="images/carousel/bloque64/1.png" itemprop="contentUrl" data-size="1366x3400"></a>
+				<figcaption itemprop="caption description">Zoom in to see full image.</figcaption>
+			</figure>
+			
+		</div>
+
+		<!-- Gallery #6 -->
+		<div class="gallery-6 gallery" itemscope="">
+
+			<figure itemprop="associatedMedia" itemscope="">
+				<a href="images/carousel/mygraffname/1.png" itemprop="contentUrl" data-size="1200x4413"></a>
+				<figcaption itemprop="caption description">Zoom in to see full image.</figcaption>
+			</figure>
+
+		</div>
+				
+		<!-- Custom Script -->
+		<script src="js/app.js"></script>
+
+  	</body>
 </html>
